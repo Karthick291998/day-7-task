@@ -92,7 +92,6 @@ public class makemytrip {
 	l1.type(l1.element("xpath", "//input[@id='mobileNumber']"), "8072159082");
 	l1.type(l1.element("xpath", "//input[@id='contactEmail']"), "karthicksubramanian2904@gmail.com");
 	l1.click(l1.element("xpath", "//div[@class='paymentBtn whiteText latoBold font16 capText']"));
-	//input[@id='email id']
 	}
 }
 
