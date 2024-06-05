@@ -37,7 +37,7 @@ public class makemytrip {
 	List<WebElement> deptime=l1.elements("xpath","//span[contains(@class,'font18 latoBl')]");
 	List<WebElement> arrtime=l1.elements("xpath","//span[contains(@class,'font18 blackText')]");
 	List<WebElement> rate=l1.elements("xpath","//span[@id='price']");
-/*	File f1=new File("C:\\Users\\ELCOT\\eclipse-workspace\\pro\\excel\\7.xlsx");
+	File f1=new File("C:\\Users\\ELCOT\\eclipse-workspace\\pro\\excel\\7.xlsx");
 	XSSFWorkbook wbook= new XSSFWorkbook(); 
 		int a=0,b=0,c=0,d=0;
 		XSSFSheet sheet=wbook.createSheet("karti");
@@ -76,7 +76,7 @@ public class makemytrip {
 		FileOutputStream f2=new FileOutputStream(f1);
 		wbook.write(f2);
 		f2.close();
-	}*/
+	}
 	WebElement seat=l1.element("xpath","//div[contains(@data-test-id,'select-seats')][1]");
 	l1.click(seat);
 	l1.click(l1.element("xpath","//span[@data-testid='seat_horizontal_sleeper_available'][1]"));
