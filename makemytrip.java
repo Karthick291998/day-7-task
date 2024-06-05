@@ -25,9 +25,7 @@ public class makemytrip {
 	l1.click(close);
 	l1.click(l1.element("xpath", "//li[contains(@class,'menu_Buses')]"));
 	l1.click(l1.element("xpath", "//input[@id='fromCity']"));
-	//WebElement from=l1.element("xpath", "//input[@placeholder='From']");
 	l1.type(l1.element("xpath", "//input[@placeholder='From']"),"chennai");
-	//l1.javascript(from);
 	l1.click(l1.element("xpath","//span[text()='Chennai, Tamil Nadu']"));
 	l1.type(l1.element("xpath", "//input[@placeholder='To']"), "Thoothukudi");
 	l1.click(l1.element("xpath", "//span[text()='Thoothukudi, Tamil Nadu']"));
